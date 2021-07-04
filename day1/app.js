@@ -36,3 +36,11 @@ var res = addition(12, 45)
 console.log(res)
 
 console.log(calc('103+2'))
+
+var obj = { 
+    age : 10,
+    name : 'hello',
+    bd : function() {
+        console.log('Write algorithm for calculating bd')
+    }
+ } // javascript object 
