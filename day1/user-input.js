@@ -1,8 +1,12 @@
 /**
- * Takeaway - understaning of node modules.
+ * Takeaway: understaning of node modules.
  * As example we have studied readline module
  * 
- */
+ * Homework:
+ * - Perform the calculation i.e. add, sub, mul and div
+ * - Identify given input is palindrome or not
+ * - Many other programs you may wish to do 
+ * */
 
 var readline = require('readline') //what is require ?
     // what is readline ?
@@ -15,5 +19,6 @@ readline.question('whats your name ?', function (nm) {
     readline.close()
 }) // how can we pass function as a parameter ?
 console.log('reached this line')
+console.log(process)
 //-->
 /// ->
