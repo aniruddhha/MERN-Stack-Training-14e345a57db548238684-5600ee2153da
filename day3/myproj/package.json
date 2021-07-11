@@ -4,7 +4,9 @@
   "description": "this is math package",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index.js",
+    "build" : ""
   },
   "keywords": [
     "demo",
