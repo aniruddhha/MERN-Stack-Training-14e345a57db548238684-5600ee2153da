@@ -1,8 +1,8 @@
 # Welcome MERN Stack Course by [Aniruddha Kudalkar](https://aniruddhakudalkar.com) 
 
-## Complete MERN Stack Course designed as per the custom requirement of the participants. This is repository maintains the source codes for the same batch. These code are written by [Aniruddha Kudalkar](https://aniruddhakudalkar.com) 
+Complete MERN Stack Course designed as per the custom requirement of the participants. This is repository maintains the source codes for the same batch. These code are written by [Aniruddha Kudalkar](https://aniruddhakudalkar.com) 
 
-## If you want to get recordings, please visit following links.
+If you want to get recordings, please visit following links.
 
 | Sr | Topic | Date |
 | --- | --- | --- |
