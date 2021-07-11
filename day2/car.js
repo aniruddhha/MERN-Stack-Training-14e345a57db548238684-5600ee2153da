@@ -23,3 +23,5 @@ module.exports.speedUp = speedUp
 module.exports.applyBreaks = applyBreaks
 module.exports.turnOn = turnOn
 module.exports.turnOff = turnOff
+module.exports.printEngine = () => console.log(engine)
+module.exports.newEngine = () => { rpm: 20 }
