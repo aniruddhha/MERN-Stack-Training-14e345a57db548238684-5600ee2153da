@@ -1,0 +1,23 @@
+{
+  "name": "mathpackage",
+  "version": "0.0.1",
+  "description": "this is math package",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "demo",
+    "app",
+    "math"
+  ],
+  "author": "aniruddha",
+  "license": "ISC",
+  "dependencies": {
+    "njwt": "^1.1.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "27.0.6"
+  }
+}
