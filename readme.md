@@ -10,3 +10,6 @@ If you want to get recordings, please visit following links.
 | 2 | [NodeJS Modules](https://youtu.be/Hj-y5aFaqO4) | 10 July 2021 |
 | 3 | [NodeJS Project and NPM](https://youtu.be/GVALzhAFL0o) | 11 July 2021 |
 
+
+## Material For Reading
+- [Javascript Foundations](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
