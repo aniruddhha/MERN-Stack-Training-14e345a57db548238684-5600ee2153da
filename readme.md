@@ -9,6 +9,7 @@ If you want to get recordings, please visit following links.
 | 1 | [Introduction to Javascript and NodeJs](https://youtu.be/e-QRf5arhGQ) | 04 July 2021 |
 | 2 | [NodeJS Modules](https://youtu.be/Hj-y5aFaqO4) | 10 July 2021 |
 | 3 | [NodeJS Project and NPM](https://youtu.be/GVALzhAFL0o) | 11 July 2021 |
+| 4 | [Javascript Classes, Objects, Async and Functional Programming](https://youtu.be/Xz68D3_SUuo) | 18 July 2021 |
 
 
 ## Material For Reading
