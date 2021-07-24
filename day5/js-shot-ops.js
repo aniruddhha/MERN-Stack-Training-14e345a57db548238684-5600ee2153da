@@ -32,10 +32,10 @@ function find() {
 }
 
 function map() {
-    const onlyMap = mobiles.map(el => el.toUpperCase())
+    const onlyMap = mobiles.map(el => [el.toUpperCase()])
     console.log(onlyMap)
 
-    const flMap = mobiles.flatMap(el => el.toUpperCase())
+    const flMap = mobiles.flatMap(el => [el.toUpperCase()])
     console.log(flMap)
 }
 
