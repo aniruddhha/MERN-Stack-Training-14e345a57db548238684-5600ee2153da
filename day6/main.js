@@ -2,7 +2,7 @@ const EventEmitter = require('events');
 
 const em = new EventEmitter()
 
-em.once(`invoices`, /*async*/ obj => { // listener function
+em.on(`invoices`, /*async*/ obj => { // listener function
     console.log(`3`)
     console.log(`Just Got An Update`)
     console.log(this)
