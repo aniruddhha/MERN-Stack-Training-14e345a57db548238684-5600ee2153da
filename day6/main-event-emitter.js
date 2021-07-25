@@ -14,12 +14,14 @@ em.on(`invoices`, /*async*/ obj => { // listener function
     // console.log(result)
 })
 
-const promise = new Promise((resolve, reject) => {
-    setTimeout(() => {
-        resolve({ inbNum: '1112-02-2021', invAmt: 1000 })
-    }, 5000)
-})
+// const promise = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         resolve({ inbNum: '1112-02-2021', invAmt: 1000 })
+//     }, 5000)
+// })
 
-setTimeout(() => { // used just for showing demo, it is not required actually
-    em.emit(`invoices`, promise)
-}, 3000)
+em.emit(`invoices`, { inbNum: '1112-02-2021', invAmt: 1000 })
+
+// setTimeout(() => { // used just for showing demo, it is not required actually
+//     em.emit(`invoices`, { inbNum: '1112-02-2021', invAmt: 1000 })
+// }, 3000)
