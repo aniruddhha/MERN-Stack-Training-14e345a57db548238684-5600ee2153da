@@ -16,6 +16,8 @@ const data = new TextEncoder().encode(
     JSON.stringify({ hi: 'hello' })
 )
 
+console.log(data)
+
 const opt = {
     host: 'reqres.in',
     path: '/api/users',
@@ -35,3 +37,4 @@ const req = https.request(opt, res => {
 })
 req.write(data)
 req.end()
+
