@@ -22,6 +22,11 @@ app.get('/', (req, res) => {
     `)
 })
 
+app.get('/dt', (req, res) => {
+    console.log(req)
+    res.send()
+})
+
 app.listen(3000, () => {
     console.log(`Server Started on 3000`)
 })
