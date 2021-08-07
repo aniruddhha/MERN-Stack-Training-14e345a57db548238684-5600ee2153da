@@ -23,8 +23,25 @@ app.get('/', (req, res) => {
 })
 
 app.get('/dt', (req, res) => {
-    console.log(req)
-    res.send()
+    res.send({
+        ip: req.ip,
+        host: req.hostname,
+        path: req.path,
+        protocol: req.protocol
+    })
+})
+
+app.post('/save/:typ', (req, res) => {
+    res.send({
+        params: req.params,
+        query: req.query,
+        body: req.body // middleware
+    })
+})
+
+app.put('/result/:num1/:num2', (req, res) => {
+    const result = parseInt(req.params.num1) + parseInt(req.params.num2)
+    res.send({ result }) // remind about this
 })
 
 app.listen(3000, () => {
