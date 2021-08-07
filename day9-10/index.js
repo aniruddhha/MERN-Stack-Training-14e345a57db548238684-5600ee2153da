@@ -1,6 +1,11 @@
 const express = require('express')
+const path = require('path') // file path utility
 
 const app = express()
+
+app.listen(3000, () => {
+    console.log(`Server Started on 3000`)
+})
 
 app.get('/', (req, res) => {
     res.send(`
@@ -44,6 +49,25 @@ app.put('/result/:num1/:num2', (req, res) => {
     res.send({ result }) // remind about this
 })
 
-app.listen(3000, () => {
-    console.log(`Server Started on 3000`)
+app.get('/my', (req, res) => {
+
+    // res.send({
+    //     dir: __dirname,
+    //     file: __filename
+    // })
+    res.type('text/html')
+    res.sendFile(`my.html`, { root: path.join(__dirname) }, err => {
+        console.log(err)
+    })
 })
+
+app.use((req, res) => { // called as middleware
+    res.status(404)
+    res.send({
+        dt: new Date(),
+        why: `${req.path} is not configured in th express app`,
+        sts: 'fail'
+    })
+})
+
+
