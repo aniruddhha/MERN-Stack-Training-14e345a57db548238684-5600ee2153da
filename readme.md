@@ -13,6 +13,20 @@ If you want to get recordings, please visit following links.
 | 5 | [Event Loop](https://youtu.be/nDA813nplZ0) | 24 July 2021 |
 | 6 | [Javascript Array Operations](https://youtu.be/KUHW1JlRNg0) | 24 July 2021 |
 | 7 | [EventEmitter, Buffer and Stream](https://youtu.be/Avrzvm9na_Q) | 25 July 2021 |
+| 8 | [Http Basics](https://youtu.be/NBTXnnA4eMw) | 01 August 2021 |
+| 9 | [Node HTTP Module](https://youtu.be/EJHtMUGcFY4) | 01 August 2021 |
+| 10 | [HTTP Implementation - JSON](https://youtu.be/Bo0RYW61zmg) | 02 August 2021 |
+| 11 | [ExpressJS Basics](https://youtu.be/jAFGM1_sSPE) | 03 August 2021 |
+| 12 | [ExpressJS Internals](https://youtu.be/kJt8o9fgVhE) | 07 August 2021 |
+| 13 | [ExpressJs - HTML and Handlebars Basics](https://youtu.be/_i_cDlt8iQE) | 07 August 2021 |
+| 14 | [ExpressJs - Handlebars Fundamentals](https://youtu.be/e6o6yWJWeEU) | 14 August 2021 |
+| 15 | [ExpressJs - Handlebars Strategies](https://youtu.be/Vawi7Yp_Sfo) | 14 August 2021 |
+| 16 | [ExpressJs - Handlebars Implementation](https://youtu.be/cZSw0bP2YiU) | 14 August 2021 |
+| 17 | [ExpressJs - Handlebars Form Submission - Part 1](https://youtu.be/cU0wtoSDInA) | 15 August 2021 |
+| 18 | [ExpressJs - Handlebars Form Submission - Part 2](https://youtu.be/nYrH-cVkFDs) | 15 August 2021 |
+| 19 | [ExpressJs - Middleware - Part 1](https://youtu.be/sur-vR4FnLs) | 15 August 2021 |
+| 20 | [ExpressJs - Middleware - Part 2](https://youtu.be/5pLW4LFg2Mw) | 15 August 2021 |
+| 21 | [ExpressJs - Routing](https://youtu.be/LQcHckshpfw) | 15 August 2021 |
 
 
 ## Material For Reading
