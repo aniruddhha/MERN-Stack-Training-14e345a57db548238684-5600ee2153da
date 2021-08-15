@@ -47,8 +47,8 @@ app.get('/save-form', (req, res, next) => {
 app.post('/save', (req, res) => {
 
     // perform form processing e.g. saving form data to database
-    // res.send({ sts: 'success', body: req.body })
-    res.render('save')
+    res.send({ sts: 'success', body: req.body })
+    // res.render('save')
 })
 
 app.listen(3000, () => {
