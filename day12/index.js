@@ -1,7 +1,9 @@
 const express = require('express')
+const ipMiddleware = require('./ip-middleware')
 
 const app = express()
 app.use(express.json())
+// app.use(ipMiddleware())
 
 app.use((req, res, next) => {
     console.log('First Middleware')
@@ -13,7 +15,7 @@ app.use((req, res, next) => {
     next()
 })
 
-app.get('/dt', (req, res, next) => {
+app.get('/dt', ipMiddleware, (req, res, next) => {
     res.json({ msg: 'hello' })
     //next()
 })
@@ -31,7 +33,7 @@ app.use((err, req, res, next) => {
     // global error handler 
     console.log(err)
     res.status(500)
-    res.json({ sts: 'fail', msg: 'internal server error' })
+    res.json({ sts: 'fail', msg: 'internal server error', url: req.url, err: err.stack })
 })
 
 app.listen(3000, () => {
