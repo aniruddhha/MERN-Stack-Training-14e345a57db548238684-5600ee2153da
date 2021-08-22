@@ -1,3 +1,5 @@
+// follow the REST guidelines - https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md
+
 const express = require('express')
 const authRouter = require('./auth/auth')
 const carRouter = require('./car/car')
