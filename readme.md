@@ -27,6 +27,10 @@ If you want to get recordings, please visit following links.
 | 19 | [ExpressJs - Middleware - Part 1](https://youtu.be/sur-vR4FnLs) | 15 August 2021 |
 | 20 | [ExpressJs - Middleware - Part 2](https://youtu.be/5pLW4LFg2Mw) | 15 August 2021 |
 | 21 | [ExpressJs - Routing](https://youtu.be/LQcHckshpfw) | 15 August 2021 |
+| 22 | [ExpressJs - REST Api - Part 1](https://youtu.be/TIYd3l4-vbQ) | 21 August 2021 |
+| 23 | [ExpressJs - REST Api - Part 2](https://youtu.be/nO8a7QZF1Ro) | 21 August 2021 |
+| 24 | [ExpressJs - Basic Authentication and JWT Security - Part 1](https://youtu.be/Y3GU1eidQPQ) | 22 August 2021 |
+| 25 | [ExpressJs - Basic Authentication and JWT Security - Part 2](https://youtu.be/GEe7TiArsVk) | 22 August 2021 |
 
 
 ## Material For Reading
