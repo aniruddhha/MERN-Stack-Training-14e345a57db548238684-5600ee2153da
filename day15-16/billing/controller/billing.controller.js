@@ -3,9 +3,9 @@ const Bill = require('../domain/billing.domain');
 const BillingRepository = require('../repository/billing.repo');
 const router = express.Router();
 
-module.exports = function (mysqlConfig) {
+module.exports = function (billRepo) {
 
-    const repository = new BillingRepository(mysqlConfig.connection)
+    const repository = billRepo
 
     router.get('/', function (req, res, next) {
         repository.findBills((err, results, fields) => {

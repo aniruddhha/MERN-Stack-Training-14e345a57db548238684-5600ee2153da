@@ -1,8 +1,13 @@
 const express = require('express')
+const BillingRepository = require('./billing/repository/billing.repo')
 const mysqlConfig = require('./configuration/mysql.config')
 
+
+const billRepo = new BillingRepository(mysqlConfig.connection)
+
 // const mySqlConfig = require('./configuration/mysql.config.middleware')
-const billingRouter = require('./billing/controller/billing.controller')(mysqlConfig)
+
+const billingRouter = require('./billing/controller/billing.controller')(billRepo)
 
 const app = express()
 app.use(express.json())
