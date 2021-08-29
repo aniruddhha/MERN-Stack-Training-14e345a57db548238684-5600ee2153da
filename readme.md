@@ -31,6 +31,8 @@ If you want to get recordings, please visit following links.
 | 23 | [ExpressJs - REST Api - Part 2](https://youtu.be/nO8a7QZF1Ro) | 21 August 2021 |
 | 24 | [ExpressJs - Basic Authentication and JWT Security - Part 1](https://youtu.be/Y3GU1eidQPQ) | 22 August 2021 |
 | 25 | [ExpressJs - Basic Authentication and JWT Security - Part 2](https://youtu.be/GEe7TiArsVk) | 22 August 2021 |
+| 26 | [ExpressJs - Project Architecture and Database Connectivity - Part 1](https://youtu.be/v7b_wYmouik) | 29 August 2021 |
+| 26 | [ExpressJs - Project Architecture and Database Connectivity - Part 2](https://youtu.be/fbDNJAs96Jk) | 29 August 2021 |
 
 
 ## Material For Reading
