@@ -1,4 +1,3 @@
-const Bill = require("../domain/billing.domain")
 
 class BillingRepository {
 

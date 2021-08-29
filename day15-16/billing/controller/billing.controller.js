@@ -8,7 +8,6 @@ module.exports = function (mysqlConfig) {
     const repository = new BillingRepository(mysqlConfig.connection)
 
     router.get('/', function (req, res, next) {
-
         repository.findBills((err, results, fields) => {
             if (!err) {
                 res.json({
@@ -49,7 +48,6 @@ module.exports = function (mysqlConfig) {
                 }
             }
         )
-
     })
 
     return router
