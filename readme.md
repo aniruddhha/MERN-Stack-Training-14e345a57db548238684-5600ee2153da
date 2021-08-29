@@ -37,3 +37,4 @@ If you want to get recordings, please visit following links.
 
 ## Material For Reading
 - [Javascript Foundations](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [JWT](https://jwt.io/) 
