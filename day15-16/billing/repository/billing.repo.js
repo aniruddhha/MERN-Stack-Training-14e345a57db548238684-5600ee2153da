@@ -2,17 +2,15 @@ const Bill = require("../domain/billing.domain")
 
 class BillingRepository {
 
-    createBill() {
-        const bill = new Bill()
+    constructor(conn) {
+        this.connection = conn
+    }
+    createBill(bill, cb) {
+        this.connection.query(` insert into bill values(${bill.id}, '${bill.cust}', ${bill.amt} ,'${bill.dt}')`, cb)
     }
 
-    findBills() {
-        const bills = []
-        bills.push(new Bill(231, 'abc', 1000, new Date()))
-        bills.push(new Bill(231, 'pqr', 4590, new Date()))
-        bills.push(new Bill(231, 'xyz', 456, new Date()))
-
-        return bills;
+    findBills(cb) {
+        this.connection.query(`select * from bill`, cb)
     }
 
     findBillById() {
