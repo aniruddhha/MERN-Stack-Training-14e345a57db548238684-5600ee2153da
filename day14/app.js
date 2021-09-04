@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/auth', authRouter);
-app.use(expressJwt({ secret: 'aaaaa', algorithms: ['HS256'] }))
+app.use(expressJwt({ secret: 'aaaaa', algorithms: ['HS256']  }))
 app.use('/users', usersRouter);
 
 module.exports = app;

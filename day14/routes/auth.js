@@ -9,14 +9,27 @@ const fs = require('fs');
 
 const router = express.Router();
 
+const dbUsers = [
+    { id: 100, usNm: 'android', pass: 'android' },
+    { id: 101, usNm: 'ani', pass: 'ani' },
+]
+const users = {
+    'android': 'android',
+    'ani': 'ani',
+    'hi': 'hi'
+}
+
 router.post('/login', basicAuth({
-    users: { 'android': 'android' }
+    users
 }), (req, res) => {
 
     const { user } = req.auth;
-    const token = jwt.sign({ user, data: 'some example data' }, 'aaaaa', { algorithm: 'HS256' });
+    const dbUser = dbUsers.find(us => us.usNm == user)
 
-    res.json({ token })
+    const token = jwt.sign({ user, data: 'some example data' }, 'aaaaa', { algorithm: 'HS256', expiresIn: 30 });
+
+    // never pass password and user info in the response
+    res.json({ token, user, dbUser })
 });
 
 module.exports = router;

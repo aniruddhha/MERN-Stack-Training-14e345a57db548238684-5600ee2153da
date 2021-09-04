@@ -2,6 +2,7 @@ const mysql = require('mysql');
 
 class MySqlConfig {
     constructor() {
+        console.log(`called`)
         this.connection = mysql.createConnection({
             host: 'localhost',
             user: 'root',
