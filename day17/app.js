@@ -1,7 +1,6 @@
 const express = require('express')
 const orm = require('./mysql.config')
 
-
 const app = express()
 app.use(express.json())
 orm.then(con => {

@@ -9,7 +9,9 @@ module.exports = typeorm.createConnection({
     password: "password",
     database: "empdb",
     synchronize: true,
+    logging: true,
     entities: [
         new EntitySchema(require('./post.json')),
+        new EntitySchema(require('./category.json')),
     ]
 })
