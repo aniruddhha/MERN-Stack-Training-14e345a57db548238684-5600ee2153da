@@ -20,12 +20,14 @@ module.exports = function (repo) {
         console.log(`Id = ${req.params.id}`)
         const id = Number.parseInt(req.params.id)
 
-        repo.find().then(posts => {
-            const catPosts = posts.filter(
+        repo.find().then(posts => { // o(n)
+            const catPosts = posts.filter( // n
                 post => post.categories.map(ct => ct.id).includes(id)
             )
             res.json(catPosts)
         });
+
+        // convert it to single query
     })
 
     return router
