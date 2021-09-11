@@ -1,0 +1,65 @@
+show dbs
+
+use('cardt');
+
+db
+
+
+db.bbb.insertOne({
+  nm : 'abc',
+  price : 123
+})
+
+db.cars.insertMany([{
+  cap : 10,
+  strk : 4,
+  make : 'US'
+},{
+  cap : 12,
+  strk : 2,
+  make : 'US'
+}, {
+  cap : 13,
+  strk : 56,
+  make : 'GE'
+}])
+
+db.eng.insertOne({
+  type : '2334',
+  cnt :2000,
+  arr : [ 1, 2, 'android', { hi : 'hello' }]
+})
+
+show collections
+
+db.cars.find()
+db.cars.count()
+
+db.eng.find()
+db.eng.count()
+
+db.version()
+db.eng.drop()
+db.eng.insertOne(
+  {
+    "nm": "abc",
+    "age": 30,
+    "cmp": "GGGGGG"
+  }
+)
+
+db.eng.save({
+     _id : ObjectId("61343bbfada5c47198b186fe"),
+     nm : "pqr", 
+     age : 999, 
+     cmp : "bbbb"
+})
+
+
+
+
+
+
+
+
+
