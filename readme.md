@@ -32,8 +32,14 @@ If you want to get recordings, please visit following links.
 | 24 | [ExpressJs - Basic Authentication and JWT Security - Part 1](https://youtu.be/Y3GU1eidQPQ) | 22 August 2021 |
 | 25 | [ExpressJs - Basic Authentication and JWT Security - Part 2](https://youtu.be/GEe7TiArsVk) | 22 August 2021 |
 | 26 | [ExpressJs - Project Architecture and Database Connectivity - Part 1](https://youtu.be/v7b_wYmouik) | 29 August 2021 |
-| 26 | [ExpressJs - Project Architecture and Database Connectivity - Part 2](https://youtu.be/fbDNJAs96Jk) | 29 August 2021 |
-
+| 27 | [ExpressJs - Project Architecture and Database Connectivity - Part 2](https://youtu.be/fbDNJAs96Jk) | 29 August 2021 |
+| 28 | [ExpressJs - ORM - Part 1](https://youtu.be/GAWPrZ2te80) | 04 September 2021 |
+| 29 | [ExpressJs - ORM - Part 2](https://youtu.be/PdSNBXSwjLw) | 04 September 2021 |
+| 30 | [Mongodb - Part 1](https://youtu.be/6-D-t7sJY1s) | 05 September 2021 |
+| 31 | [Mongodb - Part 2](https://youtu.be/-W6hsrSFliE) | 05 September 2021 |
+| 32 | [Mongodb - Part 3](https://youtu.be/0E1AWhdKhqQ) | 05 September 2021 |
+| 33 | [Mongodb - Part 4](https://youtu.be/1pzc00ZPDAQ) | 10 September 2021 |
+| 34 | [Mongodb - Part 5](https://youtu.be/JucMEyIuWhw) | 11 September 2021 |
 
 ## Material For Reading
 - [Javascript Foundations](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
