@@ -43,7 +43,7 @@ If you want to get recordings, please visit following links.
 | 35 | [Mongodb - Part 6](https://youtu.be/WhiEGSKu6p8) | 25 September 2021 |
 | 36 | [Mongodb - Part 7](https://youtu.be/NnDCWVpOysk) | 25 September 2021 |
 | 37 | [Mongodb - Part 8](https://youtu.be/ozbyZtvjOdc) | 26 September 2021 |
-| 37 | [Mongodb - Part 9](https://youtu.be/IQAgBKEa5B0) | 26 September 2021 |
+| 38 | [Mongodb - Part 9](https://youtu.be/IQAgBKEa5B0) | 26 September 2021 |
 
 ## Material For Reading
 - [Javascript Foundations](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
