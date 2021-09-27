@@ -40,7 +40,13 @@ If you want to get recordings, please visit following links.
 | 32 | [Mongodb - Part 3](https://youtu.be/0E1AWhdKhqQ) | 05 September 2021 |
 | 33 | [Mongodb - Part 4](https://youtu.be/1pzc00ZPDAQ) | 10 September 2021 |
 | 34 | [Mongodb - Part 5](https://youtu.be/JucMEyIuWhw) | 11 September 2021 |
+| 35 | [Mongodb - Part 6](https://youtu.be/WhiEGSKu6p8) | 25 September 2021 |
+| 36 | [Mongodb - Part 7](https://youtu.be/NnDCWVpOysk) | 25 September 2021 |
+| 37 | [Mongodb - Part 8](https://youtu.be/ozbyZtvjOdc) | 26 September 2021 |
+| 37 | [Mongodb - Part 9](https://youtu.be/IQAgBKEa5B0) | 26 September 2021 |
 
 ## Material For Reading
 - [Javascript Foundations](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [JWT](https://jwt.io/) 
+- [Mongo Fake Data Generator](https://mongoplayground.net/)
+- [SQL Fake Data Generator](https://www.mockaroo.com/)
