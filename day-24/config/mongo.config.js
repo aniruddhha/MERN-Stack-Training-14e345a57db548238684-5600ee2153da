@@ -6,7 +6,7 @@ module.exports = {
     connect: async function () {
         await client.connect();
         console.log('Connected successfully to server');
-        const db = client.db('test');
+        const db = client.db('quiz');
         return db;
     },
     disconnect: function () {
