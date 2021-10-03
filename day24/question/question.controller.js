@@ -12,6 +12,5 @@ module.exports = function (express, db) {
         const dbRes = await questions.insertOne({ ...question })
         res.json({ sts: `success`, msg: `saved question successfully`, ...dbRes })
     })
-
     return router
 }
