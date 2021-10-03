@@ -9,6 +9,6 @@ server.on('listening', () => {
 })
 server.on('close', () => { })
 
-process.on('SIGINT', function () {
-    server.close();
-});
+// process.on('SIGINT', function () {
+//     server.close();
+// });
