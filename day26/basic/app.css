@@ -1,0 +1,14 @@
+.small-box {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+#gh {
+    border: 1px solid red;
+}
+
+h3 {
+    border: 1px solid red;
+}
+
