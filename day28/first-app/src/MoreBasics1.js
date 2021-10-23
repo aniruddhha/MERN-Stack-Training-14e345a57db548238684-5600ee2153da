@@ -1,6 +1,6 @@
 export default function MoreBasics1() {
-
-    const style = {
+ 
+        const style = {
         border: '1px solid red'
     }
     const typ = 'text'
