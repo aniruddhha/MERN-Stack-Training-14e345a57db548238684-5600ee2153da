@@ -37,10 +37,10 @@ console.log(res)
 
 console.log(calc('103+2'))
 
-var obj = { 
-    age : 10,
-    name : 'hello',
-    bd : function() {
+var obj = {
+    age: 10,
+    name: 'hello',
+    bd: function () {
         console.log('Write algorithm for calculating bd')
     }
- } // javascript object 
+} // javascript object 
