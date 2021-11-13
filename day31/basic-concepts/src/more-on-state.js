@@ -17,7 +17,7 @@ const MoreOfState = () => {
 
         setDt(pv => {
             if (pv < 100) return 200
-            else 600
+            return 600
         })
     }
 
