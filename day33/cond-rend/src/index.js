@@ -2,13 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ShortCircuit from './short-circuitting';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import SideEffectCleanup from './side-effect-cleanup'
 
 ReactDOM.render(
   <React.StrictMode>
-    <SideEffectCleanup />
+    <ShortCircuit />
   </React.StrictMode>,
   document.getElementById('root')
 );
