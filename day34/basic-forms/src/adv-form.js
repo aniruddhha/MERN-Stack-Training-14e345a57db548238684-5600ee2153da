@@ -11,12 +11,28 @@ function CountrySelect() {
 
 export default function AdvForm1() {
 
+    const [userName, setUserName] = useState('')
+    const [password, setPassword] = useState('')
+    const [country, setCountry] = useState('')
+
+    const onUserNameChanged = (e) => {
+        setUserName(e.target.value)
+    }
+
+    const onPasswordChanged = (e) => {
+        setPassword(e.target.value)
+    }
+
+    const onCountryChanged = (e) => {
+        setCountry(e.target.value)
+    }
+
     const countries = ['India', 'Japan', 'Chiana']
 
-    const countryOptions = countries.map(country => {
+    const countryOptions = countries.map(cntry => {
         return (
-            <option value={country} key={country}>
-                {country}
+            <option value={cntry} key={cntry}>
+                {cntry}
             </option >
         )
     })
@@ -25,6 +41,7 @@ export default function AdvForm1() {
         e.preventDefault()
 
         console.log(`Form Submitted`)
+        console.log(userName, password, country)
     }
 
     return (
@@ -32,17 +49,17 @@ export default function AdvForm1() {
             <form onSubmit={onFormSubmitted}>
                 <div>
                     <label>User Name</label>
-                    <input type="text" />
+                    <input type="text" value={userName} onChange={onUserNameChanged} />
                 </div>
 
                 <div>
                     <label>Password</label>
-                    <input type="password" />
+                    <input type="password" value={password} onChange={onPasswordChanged} />
                 </div>
 
                 <div>
                     <label>Country</label>
-                    <select>
+                    <select onChange={onCountryChanged}>
                         {countryOptions}
                     </select>
                 </div>
