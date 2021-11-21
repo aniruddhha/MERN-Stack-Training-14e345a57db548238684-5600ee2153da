@@ -1,9 +1,10 @@
-
+import React from 'react';
 import { ErrorComponent } from "./parts-conditions"
 import { SuccessComponent } from "./parts-conditions"
 
 export default function ShortCircuit() {
 
+    const isLoaded = true
     const text = 'android'
     const opAnd = text && ' os'
     const opOr = text || ' os'
@@ -15,6 +16,15 @@ export default function ShortCircuit() {
             </div>
             <div>
                 {text || <ErrorComponent />}
+            </div>
+            <div>
+                {
+                    isLoaded ? (
+                        <SuccessComponent />
+                    ) : (
+                        <ErrorComponent />
+                    )
+                }
             </div>
         </div>
     )

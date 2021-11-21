@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import App from './App';
 import ShortCircuit from './short-circuitting';
+import ConditionalRenderingExample from './real-ex';
+import { Container } from 'react-bootstrap';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ShortCircuit />
+    <Container>
+      <ConditionalRenderingExample />
+    </Container>
   </React.StrictMode>,
   document.getElementById('root')
 );
