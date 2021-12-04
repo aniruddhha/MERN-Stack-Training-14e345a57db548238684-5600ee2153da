@@ -3,11 +3,40 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 function App() {
 
   const [items, setItems] = useState([])
+
+  useEffect(() => {
+
+    items.push({ name: 'abc', price: 98, qty: 20 })
+    items.push({ name: 'abc', price: 98, qty: 20 })
+    items.push({ name: 'abc', price: 98, qty: 20 })
+
+    const arr = [
+      { name: 'abc', price: 98, qty: 20 },
+      { name: 'abc', price: 98, qty: 20 },
+      { name: 'abc', price: 98, qty: 20 }
+    ]
+    setItems(arr)
+
+  }, [])
+
+  const formItem = items.map(item => {
+    return (
+      <>
+        <tr key={}>
+          <td>1</td>
+          <td><input type='text' /></td>
+          <td><input type='number' /></td>
+          <td><input type='number' /></td>
+          <td> <Button variant="primary">Add</Button></td>
+        </tr>
+      </>
+    )
+  })
 
   return (
     <div className='container'>
@@ -22,13 +51,7 @@ function App() {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1</td>
-              <td><input type='text' /></td>
-              <td><input type='number' /></td>
-              <td><input type='number' /></td>
-              <td> <Button variant="primary">Add</Button></td>
-            </tr>
+            {formItem}
           </tbody>
         </Table>
       </div>
