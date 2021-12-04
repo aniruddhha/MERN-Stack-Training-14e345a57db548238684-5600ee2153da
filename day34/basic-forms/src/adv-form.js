@@ -15,16 +15,30 @@ export default function AdvForm1() {
     const [password, setPassword] = useState('')
     const [country, setCountry] = useState('')
 
+    const [frmDt, setFormData] = useState({ userName: '', password: '', country: '' })
+
+    const set = name => {
+        return ({ target: { value } }) => {
+            setFormData(oldValues => ({ ...oldValues, [name]: value }));
+        }
+    };
+
     const onUserNameChanged = (e) => {
-        setUserName(e.target.value)
+        //setUserName(e.target.value)
+
+        // setFormData(frm => ({ ...frm, userName: e.target.value }))
     }
 
     const onPasswordChanged = (e) => {
-        setPassword(e.target.value)
+        //setPassword(e.target.value)
+
+        // setFormData(frm => ({ ...frm, password: e.target.value }))
     }
 
     const onCountryChanged = (e) => {
-        setCountry(e.target.value)
+        //setCountry(e.target.value)
+
+        // setFormData(frm => ({ ...frm, country: e.target.value }))
     }
 
     const countries = ['India', 'Japan', 'Chiana']
@@ -41,7 +55,8 @@ export default function AdvForm1() {
         e.preventDefault()
 
         console.log(`Form Submitted`)
-        console.log(userName, password, country)
+        // console.log(userName, password, country)
+        console.log(frmDt)
     }
 
     return (
@@ -49,17 +64,17 @@ export default function AdvForm1() {
             <form onSubmit={onFormSubmitted}>
                 <div>
                     <label>User Name</label>
-                    <input type="text" value={userName} onChange={onUserNameChanged} />
+                    <input type="text" value={frmDt.userName} onChange={set('userName')} required />
                 </div>
 
                 <div>
                     <label>Password</label>
-                    <input type="password" value={password} onChange={onPasswordChanged} />
+                    <input type="password" value={frmDt.password} onChange={set('password')} required />
                 </div>
 
                 <div>
                     <label>Country</label>
-                    <select onChange={onCountryChanged}>
+                    <select onChange={set('country')}>
                         {countryOptions}
                     </select>
                 </div>
